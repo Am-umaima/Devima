@@ -1,0 +1,141 @@
+.backhome
+{
+	text-decoration:none;
+	background-color:red;
+	font-size:30px;
+	 background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	margin:auto;
+	color:white;
+	font-weight:bolder;
+	padding:10px;
+	border-radius:10px;
+	
+}
+div.main
+{
+	/* margin:auto; */
+}
+div .formm{
+	/* background-color:aqua; */
+}
+
+table#maintable{
+	background-color:white;
+	margin:auto;
+	padding:30px;
+	border: 2px double black;
+	/* display:none; */
+}
+table#maintable td 
+{
+	padding:10px;
+	font-weight: bold;
+	text-align:left;
+}
+table#maintable th
+{
+	text-align:left;
+	padding-right:20px;
+}
+table#maintable th label
+{
+	background-image: linear-gradient(#fff 55%, #e1d1f9 60%);
+	font-size: 20px;
+}
+h1
+{
+	    font-size: xxx-large;
+		font-style: italic;
+		text-align:center;
+		background-image: linear-gradient(#fff 55%, #e1d1f9 60%);
+		/* width :42%; */
+		margin:auto;
+
+}
+
+table#maintable td input[type="text"],input[type="Email"],input[type="number"],textarea,select,input[type="Date"]
+{
+	width:200px;
+	padding: 5px;
+	font-size: 15px;
+	border-left: 2px groove black;
+	
+}
+select 
+{
+	/* appearance: none; */
+	width:210px;
+	font-size: 15px;
+	font-weight: 500;
+}
+select option
+{
+	font-size: 15px;
+	background-color:white;
+	color:#2c0566;
+}
+textarea:active{
+	box-shadow: 0px 0px 5px 5px #e1d1f9;
+}
+textarea:focus{
+	border: double #e1d1f9;
+}
+input[type="button"],input[type="reset"]{
+	width:100px ; 
+	padding: 8px;
+	font-size: 15px;
+	margin-left:5px;
+	border: 1px groove black;
+	border-radius:2px;
+	background-color:#e1d1f9;
+	font-weight:bolder;
+}
+.clickhere 
+{
+	text-decoration:none;
+	background-image: linear-gradient(#fff 55%, #e1d1f9 60%);
+	color:black ;
+	font-size: 22px;
+}
+.clickhere:hover
+{
+	font-size: 22px;
+	text-decoration:1px black wavy underline;
+}
+
+table#infotab
+{
+	display:none;
+	background-color:white;
+	margin:auto;
+	padding:50px;
+	border: 2px double black;
+	width:60%:
+}
+h2
+{
+	    font-size: xxx-large;
+		font-style: italic;
+		text-align:center;
+		background-image: linear-gradient(#fff 55%, aqua 60%);
+		/* width :42%; */
+		margin:auto;
+
+}
+table#infotab td 
+{
+	padding:10px;
+	font-weight: bolder;
+	text-align:left;
+	font-size: 25px;
+	border-bottom:2px solid black;
+}
+table#infotab th
+{
+	text-align:left;
+	padding-right:20px;
+	padding-bottom:10px;
+	/* text-decoration:wavy underline; */
+	font-size: 20px;
+	/* border-bottom:5px double black; */
+}
