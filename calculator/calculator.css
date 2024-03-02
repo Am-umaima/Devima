@@ -1,0 +1,130 @@
+@font-face{
+    font-family: body;
+    src: url("../Fonts/Bogart-Semibold-trial.ttf");
+}
+@font-face{
+    font-family: Devimalogo;
+    src: url("../Fonts/Heart.otf");
+}
+*
+{
+	font-weight: lighter;
+	letter-spacing: 2px;
+	margin: 0px;
+	
+}
+body{background-color:white;}
+
+/**L headerr a wtchma inoo**/
+header{
+	position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+	background-color:white;
+	font-size:16px;
+	width:100%;	
+	padding: 5px 0px 05px 0px;;
+	display: inline-flex;
+	justify-content: space-around;/*rwast vertical*/
+	align-items: baseline;/*spadit gi rwas hero*/  
+	font-family: body;
+}
+.Devima a{
+	cursor:grab;
+	font-size: 40px;
+	font-family: Devimalogo;
+	font-weight: 700;
+	color: #6d5ce9;
+	text-decoration:none;
+}
+
+.imaa{
+	color:black;
+}
+
+.Other-content {
+	background-color:white;
+	display: none;
+	position: absolute;
+	border:1px solid ;
+	border-top:1px white;
+}
+.Other-content a{
+	padding: 15px 10px;
+	text-decoration: none;
+}
+.Other-options:hover .Other-content{display: grid;}
+header div.Menu ul{
+	display: flex;
+	list-style: none;
+}
+header div ul li a{
+	color: black;
+	 font-weight: 1000;
+	text-decoration:none;
+	margin: 1px 15px;
+	padding: 10px;
+}
+header div ul li a:hover{	
+	cursor: pointer;color:#6d5ce9;
+}
+
+.Contact tr td a
+{
+	font-size:18px;
+	color:black;
+	padding-left:15px;
+}
+.Contact tr td a:hover
+{
+	cursor: pointer;color:#6d5ce9;
+}
+/* end header */
+
+
+.warning{
+	visibility: hidden;
+	font-size:20px;
+	color:red;
+	padding:10px;
+}
+.calculator table{
+	
+	margin:auto;
+	margin-top:100px;
+	text-align:center;
+}
+.calculator table tr td{
+	border:2px solid #babddd;
+}
+
+.calculator .result input
+{
+	width:95%;
+	padding:10px;
+	outline:none;
+	
+}
+
+
+.calculator form input
+{
+	width:100px;
+	height:100%;
+	cursor:pointer;
+	font-size:35px;
+	border:none;
+	background:none;
+}
+.calculator .equal input,.equal
+{
+	height:200px;
+	background-color:#babddd;
+}
+/* manay bach adlwnagh + - x / wh  */
+.plus,.subtract,.multiply,.devid
+{background-color:#e1e0ff;}
+/
+
+
+/* --------------------End Calculator-------------------------- */

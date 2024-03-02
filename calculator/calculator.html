@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calculator.css">
+	<link rel="icon" type="image/jpg" href="../picteurs/2385856.png">
+	<!-- icon zi internet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="calculator.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="Devima"><a href="../index.html">Dev<span class="imaa">ima</span></a></div>
+		<div class="Menu">
+			<ul>
+				<li><a href="../calculator/calculator.html">Calculator</a></li>
+				<li><a href="../Todo-List/Todo-List.html">Todolist</a></li>
+				<li><a href="#">Countdown</a></li>
+				<li class="Other-options">
+					<a href="#">Other</a>
+					<div class="Other-content">
+						<a href="../Survery\Survery.html">Survery</a>
+						<a href="../SlidText/SlidText.html">Slid-Text</a>
+						<a href="#">Project</a>
+						<a href="#">Project</a>
+						
+					  </div>
+
+				</li>
+			</ul>
+		</div>
+		<div class="Contact">
+		<table class="main-table">
+						<tr>
+							<td><a href="https://www.linkedin.com/in/oumaima-amlou-66763b193/" target="_blank"><i class="fa fa-linkedin"></a></td>
+							<td><a href="https://github.com/Am-umaima" target="_blank"><i class="fa fa-github"></a></td>
+							<td><a href="https://m.facebook.com/oumaima.amlou/" target="_blank"><i class="fa fa-facebook"></a></td>
+							<td><a href="mailto:amlou.oumaima@gmail.com" ><i class="fa fa-envelope"></a></td>
+						</tr>
+					</table>
+		</div>
+	</header>
+	
+	
+	<div class="calculator-main">	
+		<article >
+			<div class="calculator">
+			<form action="/action_page.php">
+				<table>
+					<tr>
+						<td colspan="4" class="result"><input type="text" value="0" id="result" readonly ></td>
+					</tr>
+					<tr>
+						<td class="plus"><input type="button" onclick="Show('+')" value="+"></td>
+						<td class="subtract"><input type="button" onclick="Show('-')" value="-"></td>
+						<td class="multiply"><input type="button" onclick="Show('*')" value="x"></td>
+						<td class="devid" ><input type="button" onclick="Show('/')" value="/"></td>
+					</tr>
+					<tr>
+						<td class="seven"><input type="button" onclick="Show('7')" value="7"></td>
+						<td class="eight"><input type="button" onclick="Show('8')" value="8"></td>
+						<td class="nine"><input type="button" onclick="Show('9')" value="9"></td>
+						<td class="equal" rowspan="4"><input type="button" class="tallequal"onclick="calculate()" value="="></td>
+					</tr>
+					<tr>
+						<td class="four"><input type="button" onclick="Show('4')" value="4"></td>
+						<td class="five"><input type="button" onclick="Show('5')" value="5"></td>
+						<td class="sex"><input type="button" onclick="Show('6')" value="6"></td>				
+					</tr>
+					<tr>
+						<td class="one"><input type="button" onclick="Show('1')" value="1"></td>
+						<td class="two"><input type="button" onclick="Show('2')" value="2"></td>
+						<td class="three"><input type="button" onclick="Show('3')" value="3"></td>				
+					</tr>
+					<tr>
+						<td class="zero"><input type="button" onclick="Show('0')" value="0"></td>
+						<td class="point"><input type="button" onclick="Show('.')" value="."></td>
+						<td class="clear"><input type="button" onclick="Clean()" value="AC"></td>				
+					</tr>
+					<tr>
+						<td colspan="4" class="warning" id="warning"><p>⚠️There was a Syntax Error⚠️</p></td>
+									
+					</tr>
+					</tr>
+				</table>
+			</form>
+			
+			</div>
+		</article>
+	</div>
+	
+	
+	
+	
+	
+<script src="calculator.js"></script>
+</body>
+</html>
+</body>
+</html>

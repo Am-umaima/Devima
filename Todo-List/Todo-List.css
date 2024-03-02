@@ -1,0 +1,17 @@
+body
+{
+	background-image:url("Soothing-nature-backgrounds-2.jpg.webp");
+	background-size:cover;
+}
+article
+{
+	background-color: white ;
+	width:50%;
+	height:200px;
+	margin:auto;
+}
+table
+{
+	margin:auto;
+	padding:10px
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Devima</title>
+	<link rel="stylesheet" href="Survery.css">
+	<link rel="icon" type="image/jpg" href="2385856.png">
+	<!-- icon zi internet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="Survery.js"></script>
+</head>
+
+<body>
+
+
+	<div class="Main">
+		<div class="formm">
+		<br>
+		<form>
+			<table id="maintable">
+				<tr>
+					<th colspan="2"><h1>Devima Imdiate Survery </h1><br><br><br></th>
+					
+
+				</tr>
+				<tr>
+					<th><label for="Name" >* Name : </label></th>
+					<td><input  type="text" name="Name" id="name"  placeholder="Enter your name." /></td>
+				</tr>
+				<tr>
+					<th><label for="Gender" >* Gender : </label></th>
+					<td>
+						<label for="Gender" >Male</label>
+						<input  type="radio" name="Male" id="male" onclick="maleclicked()"/>
+						<label for="Gender" >Female</label>
+						<input  type="radio" name="Female" id="famale" onclick="famaleclicked()"/>
+					</td>
+				</tr>
+				<tr>
+					<th><label for="Email" >* Email : </label></th>
+					<td><input  type="email" name="Email" id="Email" placeholder="Enter your Email" /></td>
+				</tr>
+				<tr>
+					<th><label for="Age" >* Age : </label></th>
+					<td><input  type="number" name="Age" id="Age" placeholder="Age" /></td>
+				</tr>
+				<tr>
+					<th><label for="occupation" >* Which option describe your current role ? </label></th>
+					<td>
+					<select id="occupation" >
+						<option hidden disabled selected>Chose here</option>
+						<optgroup label="Student">
+							<option>Highschool Student</option>
+							<option>Universty Student</option>
+						</optgroup>
+						<optgroup label="Worker">
+							<option >Teacher</option>
+							<option>Lawyer</option>
+							<option>Other</option>
+						</optgroup>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<th><label for="Infos" >Tell us more about yourself : </label></th>
+					<td><textarea rows="4" placeholder="Type Somthing"></textarea></td>
+				</tr>
+				<tr>
+					<th><label for="discover" >First time with Devima : </label></th>
+			    	<td><input  type="date" name="discover-date"  /></td>
+				</tr>
+				<tr>
+					<th><label for="found" >Where did you find Us :</label></th>
+			    	<td>
+						<label>Linkdin</label><input  type="checkbox" name="Linkdin" />
+						<label>Github</label><input  type="checkbox" name="Github" />
+						<label>Other</label><input  type="checkbox" name="Other" />						
+					</td>
+				</tr>
+				<tr>
+					<th><label for="rate" >How much will you rate Devima  : </label></th>
+			    	<td>
+						<input  type="range" name="rate" id="rate" list="rating" />
+						<datalist id="rating">
+							<option value="0" label="0"></option>
+							<option value="50" label="50"></option>
+							<option value="100" label="100" ></option>
+						</datalist>
+					</td> 
+				</tr>
+				<tr>
+					<th><label for="Avice" >Do you have any advicese for us ?  </label></th>
+					<td><textarea rows="4" placeholder="Type Somthing so we can make Devima a better place "></textarea></td>
+				</tr>
+				<tr>
+					<td><input  type="button" id="Change" value="Change" onclick="Changeall()"/></td>
+					<td><input  type="reset" id="delete" value="Delete all" /><input  type="button" id="submit" value="Submit" onclick="Submit()"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><p><a href="../index.html" class="backhome">back home</a></p></td>
+					<td>To contact us : <a href="mailto:contact@Devima.com" class="clickhere">Click here </a></td>
+				</tr>
+			</table>
+		</form>
+		<table id="infotab">
+			<tr>
+				<th colspan="2"><h2>Your Informations</h2><br></th>				
+
+				</tr>
+				<tr>
+					<th><label for="Name" >Name : </label></th>
+					<td id="tdname"></td>
+				</tr>
+				<tr>
+					<th><label for="Gender" >Gender : </label></th>
+					<td id="tdgender"></td>
+				</tr>
+				<tr>
+					<th><label for="Email" >Email : </label></th>
+					<td id="tdemail"></td>
+				</tr>
+				<tr>
+					<th><label for="Age" >Age : </label></th>
+					<td id="tdage"></td>
+				</tr>
+				<tr>
+					<th><label for="role" >Role  : </label></th>
+					<td id="tdrole"></td>
+				</tr>
+				
+					
+		</table>
+		
+		</div>
+	</div>
+
+
+
+</body>
+</html>
