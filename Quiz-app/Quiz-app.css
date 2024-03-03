@@ -6,9 +6,13 @@
     font-family: Devimalogo;
     src: url("../Fonts/Heart.otf");
 }
+@font-face{
+    font-family: number;
+    src: url("../Fonts/Berpatu-PKxr2.otf");
+}
 *
 {
-	font-weight: lighter;
+	/* font-weight: lighter; */
 	letter-spacing: 2px;
 	margin: 0px;
 	
@@ -17,7 +21,7 @@ body{background-color:white;}
 
 /**L headerr a wtchma inoo**/
 header{
-	position: -webkit-sticky; /* For Safari */
+	position: -webkit-sticky;
     position: sticky;
     top: 0;
 	background-color:white;
@@ -25,8 +29,8 @@ header{
 	width:100%;	
 	padding: 5px 0px 05px 0px;;
 	display: inline-flex;
-	justify-content: space-around;/*rwast vertical*/
-	align-items: baseline;/*spadit gi rwas hero*/  
+	justify-content: space-around;
+	align-items: baseline;
 	font-family: body;
 }
 .Devima a{
@@ -38,9 +42,7 @@ header{
 	text-decoration:none;
 }
 
-.imaa{
-	color:black;
-}
+.imaa{	color:black;}
 
 .Other-content {
 	background-color:white;
@@ -80,3 +82,83 @@ header div ul li a:hover{
 	cursor: pointer;color:#6d5ce9;
 }
 /* end header */
+/* Start Section */
+section{
+	background-color:#efedff;
+	width:70%;
+	margin:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding:10px;
+	border-radius:100px 100px 40px 40px;
+	/* border:10px white double; */
+	font-family: body;
+}
+.hints
+{
+	background-color:white;
+	padding:40px;
+	border-radius:100px;
+	border:10px #efedff double;
+
+}
+.Eager
+{
+	color:#6d5ce9;
+	padding:4px;
+}
+ul { list-style: none;}
+h3{	font-size:22px;}
+[class^="Qst"]
+{
+	background-color:#efedff;border:10px white double;
+	margin:10px;
+	padding:25px;
+		padding-bottom:5px;
+}
+.Questions
+{
+	background-color:white;
+	width:80%;
+	margin:auto;
+	margin-top:20px;
+	padding:1px;border:10px #efedff double;
+}
+.Questions li{}
+[class^="False"]
+{
+	color:red;
+	padding:15px;
+	padding-bottom:0px;
+	visibility:hidden;
+	
+}
+.EndGame
+{
+	background-color:white;
+	width:80%;
+	margin:auto;padding:20px;
+	margin-top:20px;border:20px #efedff double;
+	text-align:center;
+}
+.Submit{
+	background-color:#efedff;
+	padding:20px;width:80%;margin:auto;
+	border:20px white double;
+}
+#submitQuiz{
+	background-color:#6d5ce9;
+	margin:15px;
+	padding:7px;
+	width:90px;color:white;
+	font-weight:800;
+}
+.Score{
+	visibility:hidden;
+}
+.ScoreNote{
+	font-family: Devimalogo;	font-size:20px;
+}
+
+
+/* End Section */
