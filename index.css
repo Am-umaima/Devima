@@ -6,10 +6,6 @@
     font-family: Devimalogo;
     src: url("Fonts/Heart.otf");
 }
-@font-face {
-    font-family: introds;
-    src: url("Fonts/Bohabey Font by 7Ntypes.otf");
-}
 *
 {
 	font-weight: lighter;
@@ -190,7 +186,7 @@ footer{
 {
 	border-top:5px white double;
 	text-align:center;
-	padding:10px;
+	padding:20px;
 }
 /* end footer */
 
