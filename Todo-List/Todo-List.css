@@ -80,3 +80,43 @@ header div ul li a:hover{
 	cursor: pointer;color:#6d5ce9;
 }
 /* end header */
+/* start section  */
+section{
+	border:1px #e1e0ff double ;
+	width:40%;
+	padding:20px;
+	margin:auto;
+	margin-top:45px;
+	font-family: body;
+}
+section h1{
+	text-align:center;
+	background-image: linear-gradient(to top,#e1e0ff 50%,white 1%); 
+}
+section form
+{
+	margin:25px;
+}
+input[type="text"] {
+    padding: 10px;margin:20px;
+    border: 2px solid #ccc;
+}
+input[type="button"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#successMessage
+{
+	font-size :10px;
+	color:green;padding: 10px;
+	visibility:hidden;
+}
+section table td{
+	color:#514d4d;
+	
+}
+
+
+
+/* end section  */

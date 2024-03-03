@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8"/>
-	<title>Quiz App</title>
+	<title>Quiz Game</title>
 	<link rel="stylesheet" href="Quiz-app.css">
 	<link rel="icon" type="image/jpg" href="../tsawa/2385856.png">
 	<!-- icon zi internet -->
@@ -11,13 +11,13 @@
 	<script src="Quiz-app.js"></script>
 </head>
 <body>
-<header>
+	<header>
 		<div class="Devima"><a href="../index.html">Dev<span class="imaa">ima</span></a></div>
 		<div class="Menu">
 			<ul>
 				<li><a href="../calculator/calculator.html">Calculator</a></li>
 				<li><a href="../Todo-List/Todo-List.html">Todolist</a></li>
-				<li><a href="../Quiz-app/Quiz-app.html">Quiz App</a></li>
+				<li><a href="../Quiz-app/Quiz-app.html">Quiz Game</a></li>
 				<li class="Other-options">
 					<a href="#">Other</a>
 					<div class="Other-content">
@@ -42,6 +42,141 @@
 					</table>
 		</div>
 	</header>
+	<section>
+		<div class="hints">
+			<h1>Hi There👋 Welcome to the Quiz Game!</h1><br>
+			<p>Test your <span class="Eager">knowledge</span> with our fun and challenging quiz🎯. You will be presented with <span class="Eager">Ten questions</span>💪, each with <span class="Eager">Four multiple-choice answers</span>🏋️‍♂️. Choose the correct answer for each question and <span class="Eager">see how</span> many you can get right🧠!</p><br>
+			<H2>How to Play:</H2>
+			<ul>
+				<li>🌟Read each question <span class="Eager">carefully</span>.</li>
+				<li>🌟Think <span class="Eager">wisely</span> and select the answer <span class="Eager">you believe</span> is correct.</li>
+				<li>🌟After answering all <span class="Eager">Ten questions</span>, click <span class="Eager">the "Submit" button</span> to see your score.</li>
+			</ul>
+			<br><br>
+				<h3>Good luck<span class="Eager">and</span>have fun!🥰</h3>
+		</div>
+		
+		<form id="quizForm">
+			<div class="Questions">
+				<div class="Qst1">
+					<p>What is the capital of France?</p>
+					<ul>
+						<li><input type="radio" id="Paris" name="Capital" value="Paris"/><label for="Paris">Paris </label></li>
+						<li><input type="radio" id="London" name="Capital" value="London"/><label for="Madrid">London</label></li>
+						<li><input type="radio" id="Berlin" name="Capital" value="Berlin"/><label for="Berlin">Berlin</label></li>
+						<li><input type="radio" id="Madrid" name="Capital" value="Madrid"/><label for="Madrid">Madrid</label></li>
+					</ul>
+					<p class="FalseQst1" >No😞 The Correct Answer is Paris ✅</p>
+				</div>
+				<div class="Qst2">
+					<p>How many continents are there in the world?</p>
+					<ul>
+						<li><input type="radio" id="Five" name="continent" value="Five"/><label for="Five ">Five</label></li>
+						<li><input type="radio" id="Six" name="continent" value="Six"/><label for="Six">Six</label></li>
+						<li><input type="radio" id="Seven" name="continent" value="Seven"/><label for="Seven">Seven</label></li>
+						<li><input type="radio" id="Eight" name="continent" value="Eight"/><label for="Eight">Eight</label></li>
+					</ul>
+					<p class="FalseQst2" >No😞 The Correct Answer is Five ✅</p>
+				</div>
+				<div class="Qst3">
+					<p>Who is known as the father of computer science?</p>
+					<ul>
+						<li><input type="radio" id="Charles-Babbage" name="father" value="Charles-Babbage"/><label for="Charles-Babbage">Charles Babbage</label></li>
+						<li><input type="radio" id="Ada-Lovelace" name="father" value="Ada-Lovelace"/><label for="Ada-Lovelace">Ada Lovelace</label></li>
+						<li><input type="radio" id="Alan-Turing" name="father" value="Alan-Turing"/><label for="Alan-Turing">Alan Turing</label></li>
+						<li><input type="radio" id="Bill-Gates" name="father" value="Bill-Gates"/><label for="Bill-Gates">Bill Gates</label></li>
+					</ul>
+					<p class="FalseQst3" >No😞 The Correct Answer is Alan Turing ✅</p>
+				</div>
+				<div class="Qst4">
+					<p>What is the largest planet in our solar system?</p>
+					<ul>
+						<li><input type="radio" id="Earth" name="largeplanet" value="Earth"/><label for="Earth">Earth</label></li>
+						<li><input type="radio" id="Saturn" name="largeplanet" value="Saturn"/><label for="Saturn">Saturn</label></li>
+						<li><input type="radio" id="Mars" name="largeplanet" value="Mars"/><label for="Mars">Mars</label></li>
+						<li><input type="radio" id="Jupiter" name="largeplanet" value="Jupiter "/><label for="">Jupiter </label></li>
+					</ul>
+					<p class="FalseQst4">No😞 The Correct Answer is Jupiter ✅</p>
+				</div>
+				<div class="Qst5">
+					<p>What is the chemical symbol for iron?</p>
+					<ul>
+						<li><input type="radio" id="Pb" name="iron" value="Pb"/><label for="Pb">Pb</label></li>
+						<li><input type="radio" id="Fe" name="iron" value="Fe"/><label for="Fe">Fe</label></li>
+						<li><input type="radio" id="" name="iron" value=""/><label for="">Ag</label></li>
+						<li><input type="radio" id="Au" name="iron" value="Au"/><label for="Au">Au</label></li>
+					</ul>
+					<p class="FalseQst5">No😞 The Correct Answer is Fe ✅</p>
+				</div>
+				<div class="Qst6">
+					<p>Who painted the Mona Lisa?</p>
+					<ul>
+						<li><input type="radio" id="Leonardo" name="Mona-Lisa" value="Leonardo"/><label for="Leonardo">Leonardo da Vinci</label></li>
+						<li><input type="radio" id="Vincent" name="Mona-Lisa" value="Vincent"/><label for="Vincent">Vincent van Gogh</label></li>
+						<li><input type="radio" id="Pablo" name="Mona-Lisa" value="Pablo"/><label for="Pablo">Pablo Picasso</label></li>
+						<li><input type="radio" id="Michelangelo" name="Mona-Lisa" value="Michelangelo"/><label for="Michelangelo">Michelangelo</label></li>
+					</ul>
+					<p class="FalseQst6">No😞 The Correct Answer is Leonardo da Vinci ✅</p>
+				</div>
+				<div class="Qst7">
+					<p>Which animal is known as the "king of the jungle"</p>
+					<ul>
+						<li><input type="radio" id="Tiger" name="king " value="Tiger"/><label for="Tiger">Tiger</label></li>
+						<li><input type="radio" id="Gorilla" name="king " value="Gorilla"/><label for="Gorilla">Gorilla</label></li>
+						<li><input type="radio" id="Elephant" name="king " value="Elephant"/><label for="Elephant">Elephant</label></li>
+						<li><input type="radio" id="Lion " name="king " value="Lion "/><label for="">Lion </label></li>
+					</ul>
+					<p class="FalseQst7">No😞 The Correct Answer is Lion ✅</p>
+				</div>
+				<div class="Qst8">
+					<p>What is the chemical symbol for gold?</p>
+					<ul>
+						<li><input type="radio" id="Au" name="gold" value="Au"/><label for="Au">Au</label></li>
+						<li><input type="radio" id="Fe" name="gold" value="Fe"/><label for="Fe">Fe</label></li>
+						<li><input type="radio" id="Pb" name="gold" value="Pb"/><label for="Pb">Pb</label></li>
+						<li><input type="radio" id="Ag" name="gold" value="Ag"/><label for="Ag">Ag</label></li>
+					</ul>
+					<p class="FalseQst8" >No😞 The Correct Answer is Au ✅</p>
+				</div>
+				<div class="Qst9">
+					<p>Which artist painted the famous artwork "The Starry Night"?</p>
+					<ul>
+						<li><input type="radio" id="Michelangelo" name="Starry-Night" value="Michelangelo"/><label for="Michelangelo">Michelangelo</label></li>
+						<li><input type="radio" id="Vincent" name="Starry-Night" value="Vincent"/><label for="Vincent">Vincent van Gogh</label></li>
+						<li><input type="radio" id="Leonardo" name="Starry-Night" value="Leonardo"/><label for="Leonardo">Leonardo da Vinci</label></li>
+						<li><input type="radio" id="Pablo" name="Starry-Night" value="Pablo"/><label for="Pablo">Pablo Picasso</label></li>
+					</ul>
+					<p class="FalseQst9">No😞 The Correct Answer is Vincent van Gogh ✅</p>
+				</div>
+				<div class="Qst10">
+					<p>How many sides does a triangle have?</p>
+					<ul>
+						<li><input type="radio" id="Four" name="triangle" value="Four"/><label for="Four">Four</label></li>
+						<li><input type="radio" id="Six" name="triangle" value="Six"/><label for="Six">Six</label></li>
+						<li><input type="radio" id="Three" name="triangle" value="Three"/><label for="Three">Three</label></li>
+						<li><input type="radio" id="Five" name="triangle" value="Five"/><label for="Five">Five</label></li>
+					</ul>
+					<p class="FalseQst10">No😞 The Correct Answer is Three ✅</p>
+				</div>
+			</div>
+			<div class="EndGame">
+				<div class="Submit">
+					<label><input type="checkbox" id="readyCheckbox"> I am ready and sure</label><br>
+					<button id="submitQuiz">Submit</button>
+				</div>
+				<br>
+				<div class="Score">
+					<p>Congratulations!🎉 You have completed the quiz. Your score is <span class="ScoreNote">100%</span>.</p>
+				</div>
+			</div>
+			
+			
+		</form>
+	</section>
+	
+	
+	
+	
 <script src="Quiz-app.js"></script>
 </body>
 </html>
