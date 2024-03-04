@@ -1,0 +1,33 @@
+body
+{
+	background-color:beige;
+	background-image:url("life.jpeg");
+	background-size:100% 700px;
+}
+div.main
+{
+	width: 50%;
+	margin: auto;
+    margin-top: auto;
+	font-family: "font";
+	font-size: xxx-large;
+	color:#090909;
+	text-shadow: 4px 4px 9px #fffdfd;
+	font-weight: bold;
+	background-color:#f7f2f254;
+	padding: 50px;
+	/* border-radius: 70px; */
+	margin-top: 10%;
+}
+@font-face
+{
+	font-family:"font";
+	src:url("sma.ttf");
+}
+@media all and (max-width: 1024px)
+{
+	div
+	{
+		color:red;
+	}
+}

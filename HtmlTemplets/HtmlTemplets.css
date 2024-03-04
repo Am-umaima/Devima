@@ -1,0 +1,122 @@
+@font-face{
+    font-family: body;
+    src: url("../Fonts/Bogart-Semibold-trial.ttf");
+}
+@font-face{
+    font-family: Devimalogo;
+    src: url("../Fonts/Heart.otf");
+}
+*
+{
+	font-weight: lighter;
+	letter-spacing: 2px;
+	margin: 0px;
+	
+}
+body{background-color:white;}
+
+/**L headerr a wtchma inoo**/
+header{
+	position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+	background-color:white;
+	font-size:16px;
+	width:100%;	
+	padding: 5px 0px 05px 0px;;
+	display: inline-flex;
+	justify-content: space-around;/*rwast vertical*/
+	align-items: baseline;/*spadit gi rwas hero*/  
+	font-family: body;
+}
+.Devima a{
+	cursor:grab;
+	font-size: 40px;
+	font-family: Devimalogo;
+	font-weight: 700;
+	color: #6d5ce9;
+	text-decoration:none;
+}
+
+.imaa{
+	color:black;
+}
+
+.Other-content {
+	background-color:white;
+	display: none;
+	position: absolute;
+	border:1px solid ;
+	border-top:1px white;
+}
+.Other-content a{
+	padding: 15px 10px;
+	text-decoration: none;
+}
+.Other-options:hover .Other-content{display: grid;}
+header div.Menu ul{
+	display: flex;
+	list-style: none;
+}
+header div ul li a{
+	color: black;
+	 font-weight: 1000;
+	text-decoration:none;
+	margin: 1px 15px;
+	padding: 10px;
+}
+header div ul li a:hover{	
+	cursor: pointer;color:#6d5ce9;
+}
+
+.Contact tr td a
+{
+	font-size:18px;
+	color:black;
+	padding-left:15px;
+}
+.Contact tr td a:hover
+{
+	cursor: pointer;color:#6d5ce9;
+}
+/* end header */
+article{
+	
+	width:50%;
+	padding:20px;
+	margin:auto;
+	margin-top:40px;
+	border-left:2px #e1e0ff solid ;
+	border-right:2px #e1e0ff solid ;	font-family: body;
+}
+article h1{
+	text-align:center;
+	background-image: linear-gradient(to top,#e1e0ff 50%,white 1%); 
+	margin:20px;
+}
+.number{
+	font-family: Devimalogo;
+	font-size:20px;
+	font-weight:700;
+}
+.Eager
+{
+	color:#6d5ce9;
+	padding:4px;
+}
+section table{
+	margin:auto;
+	margin-top:45px;
+}
+section table td {
+
+
+}
+img{	margin:8px;
+	padding:5px;
+	border:1px #6d5ce9 solid ;
+opacity:0.5;
+}
+img:hover{
+opacity:1;
+}
