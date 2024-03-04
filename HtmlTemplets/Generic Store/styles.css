@@ -1,0 +1,222 @@
+body
+{
+	margin:	60px;
+}
+@font-face
+{
+	font-family:font;
+	src:url(Fonts/Oretz.otf);
+}
+/* header */
+header
+{
+	background-image:url("images/Header Background.jpg");
+	background-size:cover;
+	color:white;
+	text-align:center;
+}
+nav
+{
+	border-bottom:2px solid white;
+	padding:1px;
+}
+li
+{
+	display:inline;
+	padding-left:20px;
+	margin:10px;
+}
+li a
+{
+	color:white;
+	text-decoration:none;
+}
+li a:hover
+{
+	color:white;
+	background-color:gray;
+	padding:15px;
+}
+
+header h1
+{
+	font-size:50px;
+	font-family:font
+}
+/* header for home */
+header input.bot
+{
+	padding:20px;
+	font-size:25px;
+	color:white;
+	background-color:black;
+	background: #00000040;
+	
+	border:2px solid DarkTurquoise;
+	
+}
+header input.fi
+{
+	padding:20px;
+	font-size:25px;
+	color:DarkTurquoise;
+	background-color:black;
+	background: #00000040;
+	border:2px solid DarkTurquoise;
+	border-radius:40px;
+	margin:20px;
+}
+/* section home */
+table,section h1
+{
+	text-align:center;
+	margin:auto;
+
+}
+
+section td,th
+{
+	border-bottom:2px solid black;
+	padding:20px;
+	
+}
+table
+{
+	border-collapse:collapse;
+}
+.none
+{
+	border:none;
+}
+td
+{
+	color:gray;
+}
+td input
+{
+	background-color:DarkTurquoise;
+	color:white;
+	font-weight:bold;
+	padding:10px;
+	border:none;
+}
+/*///////////// store///////////// */
+aside
+{
+	text-align:center;
+}
+aside h2
+{
+	font-size: xx-large;
+	margin: 0px;
+}
+aside h3
+{
+	margin: 0px;
+	font-size: x-large;
+}
+aside td  div
+{
+	margin:50px;
+}
+aside td input
+{
+	border-radius:5px;
+	margin-left: 100px;
+}
+/* end of aside*/
+aside div td
+{
+	text-align:left;
+	border-bottom:2px solid black;
+	margin:10px;
+}
+.fley
+{
+	/* display:flex; */
+}
+aside div table {
+
+    text-align:left;
+	width: 70%;
+    font-size: larger;
+
+}
+aside div td input
+ {
+	margin-left: 0px;
+}
+aside div td table td 
+{
+	border:none;
+}
+.input {
+
+    width: 20px;
+    background-color: whitesmoke;
+	border: 2px solid darkturquoise;
+	color: black;
+}
+.remove
+{
+    background-color:brown;
+    font-weight: bolder;
+
+}
+.lastinput
+{
+	background-color:DarkTurquoise;
+	color:white;
+	padding:20px;
+	margin:30px;
+	border:none;
+	border-radius:5px;
+	font-size:xx-large;
+}
+/* /////////// about ////////////// */
+article
+{
+	text-align:center;
+	 width:70%; 
+	 margin:auto;
+}
+article div
+{
+	display :block ;
+	margin:auto;
+}
+article img
+{
+	border-radius:100px;
+	float:left;	
+	margin:10px;
+
+}
+article p
+{
+	font-size:18px;
+	text-align:left;
+	color:gray;
+}
+
+/* /////////////   footer   //////////// */
+
+footer
+{
+	padding:20px;	
+	display:flex;
+	background-color:DarkTurquoise;
+	color:white;
+	padding-left: 40px;
+	font-family:"oumaima";
+}
+footer div
+{
+	margin-left:700px;
+	
+}
+footer div img
+{
+	height:40px;
+	margin:20px;
+}
