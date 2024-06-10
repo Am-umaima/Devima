@@ -20,7 +20,7 @@ function calculate() {
         if (khabiza.test(input)) {
             result = eval(input);
 			document.getElementById("result").style.border="none" ;
-			document.getElementById("warning").style.visibility  = "none";
+			document.getElementById("warning").style.visibility  = "Hidden";
         } else {
             result ='';
 			document.getElementById("result").style.border="red 3px solid" ;
