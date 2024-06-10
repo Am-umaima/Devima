@@ -1,4 +1,16 @@
-function CalculeScore(){
+function Submitquiz ()
+{
+	if(document.getElementById("readyCheckbox").checked)
+	{
+		document.getElementById("labelready").style.color="black";
+		ValidateAnswer();
+	}
+	else{
+		alert("Are you sure? Check yes to see your Score");
+		document.getElementById("labelready").style.color="red";
+	}
+}
+function ValidateAnswer(){
 	TenEmpty()
 	let score =0;
 	// qustion1
@@ -86,10 +98,28 @@ function CalculeScore(){
 	FalseQst10.style.color=Three?"green":"red";
 	FalseQst10.innerHTML=Three?"Correct😄 It is Three 👏":"No😞 The Correct Answer is Three ✅";
 	score+=Three?1:0;
+	
+	ScoreFinal(score);
+	
 
 }
 function TenEmpty()
 {
 		console.log("later");
 }
-
+function ScoreFinal(score)
+{
+	let res =(score/10)*100;
+	document.getElementById("ScoreNote").innerHTML=((score/10)*100)+"%";
+	
+	if(res>=50)
+	{
+		// let vlue ="Congratulations!🎉"
+		document.getElementById("Score").style.color="green";
+	}
+	else{
+		// let vlue="Try Again 😞";
+		document.getElementById("Score").style.color="red";
+	}
+	document.getElementById("Score").style.visibility="visible";
+}
