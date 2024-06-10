@@ -8,10 +8,11 @@
 }
 *
 {
+	
 	font-weight: lighter;
 	letter-spacing: 2px;
 	margin: 0px;
-	
+	margin-top:3px;
 }
 body{background-color:white;}
 
@@ -153,18 +154,18 @@ nav{
 }
 .mainQoute
 {
-	padding:10px;
+	padding:5px;
 	font-family: body;
-	background-color:#e1e0ff;
+	background-color: #f2f2ff;
 	width:60%;
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
 	margin:auto ;
-	margin-top:50px ;
-	margin-bottom:60px ;
-	border:10px white double;
-	border-radius:20px;
+	margin-top:60px ;
+	margin-bottom:80px ;
+	 box-shadow: -7px -7px 0px 1px #c8c2f3;
+	 border:1px #6d5ce9 solid;
 }
 nav button{
 	font-size:30px;
@@ -172,22 +173,23 @@ nav button{
 	background-color: transparent;
 	border: none;
 	outline: none;
-	text-shadow: 1px 1px 4px black;
-	padding:15px;
+	text-shadow: 1px 0px 1px  black;
+	padding:20px;
+	color:#6d5ce9 ;
 }
 /* end nav */
 
 /* start footer */
-footer{
-	font-family: body;
-	background-color:#e1e0ff;
-}
-.DesignedFooter
-{
-	border-top:5px white double;
-	text-align:center;
-	padding:20px;
-}
+/* footer{ */
+	/* font-family: body; */
+/* background-color: #f4f4f4; */
+/* } */
+/* .DesignedFooter */
+/* { */
+	/* border-top:5px #f2f2ff solid; */
+	/* text-align:center; */
+	/* padding:20px; */
+/* } */
 /* end footer */
 
 
