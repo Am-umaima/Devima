@@ -20,4 +20,4 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 ## Contact
 
-For questions or feedback, you can reach me at amlou.oumaima@gmail.com 📥.
+For suggestions or feedback, you can reach me at amlou.oumaima@gmail.com 📥.
