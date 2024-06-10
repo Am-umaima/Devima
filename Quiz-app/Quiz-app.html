@@ -161,12 +161,13 @@
 			</div>
 			<div class="EndGame">
 				<div class="Submit">
-					<label><input type="checkbox" id="readyCheckbox"> I am ready and sure</label><br>
-					<input type='button' id="submitQuiz" onclick="CalculeScore()" value="Submit"/>
+					<label id="labelready"><input type="checkbox" id="readyCheckbox"> I am ready and sure</label><br>
+					<input type='button' id="submitQuiz" onclick="Submitquiz()" value="Submit"/>
+					<!-- <input type='Reset' id="submitQuiz" onclick="Reset()" value="Try Again"/> -->
 				</div>
 				<br>
-				<div class="Score">
-					<p>Congratulations!🎉 You have completed the quiz. Your score is <span class="ScoreNote">100%</span>.</p>
+				<div id="Score">
+					<p> You have completed the quiz with a score of <span id="ScoreNote">100%</span>.</p>
 				</div>
 			</div>
 			
