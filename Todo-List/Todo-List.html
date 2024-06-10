@@ -23,7 +23,7 @@
 					<div class="Other-content">
 						<a href="../Survery\Survery.html">Survery</a>
 						<a href="../SlidText/SlidText.html">Slid-Text</a>
-						<a href="#">Project</a>
+						<a href="../HtmlTemplets/HtmlTemplets.html">HtmlTemplets</a>
 						<a href="#">Project</a>
 						
 					  </div>
@@ -45,18 +45,60 @@
 	<section>
 	
 		<h1>TodoList <i class="fa fa-book"></i><i class="fa fa-pencil"></i></h1>
-    <form id="todoForm">
-        <input type="text" id="todo" name="todo" placeholder="Type your task.."/>
-        <input type="button" id="addTask" value="Add Task"/>
-        <p id="successMessage">Todo item added successfully!</p>
-    
+    <form id="todoForm"  onsubmit="return false;">
+	
+        <table id="maintable">
+			<tr>
+				<td > <input type="text" id="todo" name="todo" placeholder="Type your task.."/><input type="button" id="addTask" value="Add Task" onclick="AddTask()"/></td>
+				
+				
+			</tr>
+			<tr>
+				<td > <p id="successMessage">Todo item added successfully!</p></td>
+				
+			</tr>
+		</table>
     <table id="taskList">
-        <tr><td>✨ Watch Batata Serie</td></tr>
-        <tr><td>✨ Watch Doggie</td></tr>
-        <tr><td>✨ Cook Dinner</td></tr>
-        <tr><td>✨ Clean Home</td></tr>
-        <tr><td>✨ Go Shopping</td></tr>
-        <tr><td>✨ Buy Milk</td></tr>
+		<!-- <tr> -->
+			<!-- <td colspan="3"> <input type="text" id="todo" name="todo" placeholder="Type your task.."/></td> -->
+			
+			<!-- <td><input type="button" id="addTask" value="Add Task" onclick="AddTask()"/></td> -->
+		<!-- </tr> -->
+		<!-- <tr> -->
+			<!-- <td colspan="4"> <p id="successMessage"></p></td> -->
+			
+		<!-- </tr> -->
+        <tr>
+			<td><input type="checkbox" onclick="DONE(this)" /></td>
+			<td class="taskname">Watch Batata Serie</td>
+			<td><button class="deletestyle" onclick="deleteitem(this)">❌</button></td>
+			<td><button class="editestyle" onclick="Edititem(this)">✏️</button></td>
+		</tr>
+		<!-- ✏✔️ -->
+        <tr>
+			<td><input type="checkbox" onclick="DONE(this)" /></td>
+			<td class="taskname">Do Shoping</td>
+			<td><button class="deletestyle" onclick="deleteitem(this)">❌</button></td>
+			<td><button class="editestyle" onclick="Edititem(this)">✏️</button></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" onclick="DONE(this)" /></td>
+			<td class="taskname">Read a book</td>
+			<td><button class="deletestyle" onclick="deleteitem(this)">❌</button></td>
+			<td><button class="editestyle" onclick="Edititem(this)">✏️</button></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" onclick="DONE(this)" /></td>
+			<td class="taskname">buy milk</td>
+			<td><button class="deletestyle" onclick="deleteitem(this)">❌</button></td>
+			<td><button class="editestyle" onclick="Edititem(this)">✏️</button></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" onclick="DONE(this)" /></td>
+			<td class="taskname">cook dinner</td>
+			<td><button class="deletestyle" onclick="deleteitem(this)">❌</button></td>
+			<td><button class="editestyle" onclick="Edititem(this)">✏️</button></td>
+		</tr>
     </table>
 	</form>
    
