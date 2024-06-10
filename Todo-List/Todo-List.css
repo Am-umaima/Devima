@@ -11,7 +11,7 @@
 	font-weight: lighter;
 	letter-spacing: 2px;
 	margin: 0px;
-	
+	margin-top:3px;
 }
 body{background-color:white;}
 
@@ -100,12 +100,12 @@ section form
 input[type="text"] {
     padding: 10px;margin:20px;
     border: 2px solid #ccc;
+	width:300px;
 }
 input[type="button"] {
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
+
 #successMessage
 {
 	font-size :10px;
@@ -114,9 +114,34 @@ input[type="button"] {
 }
 section table td{
 	color:#514d4d;
+
 	
 }
-
+.taskname
+{
+	width:260px;
+}
+section  #taskList tr td
+{
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom : 1px #ccc double;
+}
+#taskList{
+	margin:auto;
+	width:80%;
+}
+.deletestyle, .editestyle
+{
+	border:none;
+	background-color: #f0f8ff00;
+	font-size:15px;
+}
+#maintable
+{
+	margin:auto;
+	width:90%;
+}
 
 
 /* end section  */
